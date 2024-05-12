@@ -1,74 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Freestyle HTML Design</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        h1 {
-            color: #333;
-            text-align: center;
-        }
-
-        p {
-            line-height: 1.6;
-        }
-
-        .button {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #007bff;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 4px;
-            transition: background-color 0.3s ease;
-        }
-
-        .button:hover {
-            background-color: #0056b3;
-        }
-
-        .image-container {
-            text-align: center;
-            margin-top: 20px;
-        }
-
-        .image-container img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Revert Commit</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Welcome to Our Website</h1>
-        <p>This is a freestyle HTML design created just for you! Feel free to modify and customize it as needed for your project.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel libero eget arcu tempus convallis. Proin euismod facilisis dui, nec aliquam est ullamcorper nec. Donec aliquam nisi a libero ultrices volutpat.</p>
-        <p>Don't forget to check out our latest offerings:</p>
-        <div class="image-container">
-            <img src="https://via.placeholder.com/600x300" alt="Placeholder Image">
-        </div>
-        <p>Ready to get started? Click below!</p>
-        <a href="#" class="button">Get Started</a>
-    </div>
+<button onclick="revertCommit()">Revert Commit e02d376</button>
+
+<script>
+function revertCommit() {
+    // Simulate a Git revert command
+    alert("Reverting commit e02d376 from GitHub...");
+    // Here you would typically use AJAX to send a request to your server-side script
+    // The server-side script would then execute the Git command
+    // For security reasons, you cannot directly execute Git commands from client-side JavaScript
+}
+</script>
 </body>
 </html>
